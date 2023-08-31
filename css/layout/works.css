@@ -1,0 +1,32 @@
+@media screen and (max-width: 767px) {
+  .block-doing {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .block-doing {
+    display: none;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .block-doing {
+    padding-bottom: 120px;
+  }
+  .list-block-doing {
+    display: flex;
+    gap: 24px;
+  }
+  .h-two-title {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--heading-color);
+  }
+  .h-two-title {
+    margin-bottom: 72px;
+  }
+}

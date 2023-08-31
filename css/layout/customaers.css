@@ -1,0 +1,106 @@
+@media screen and (max-width: 767px) {
+  .block-customers {
+    padding-bottom: 96px;
+  }
+  .link-customers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .link-customers {
+    color: var(--lightdark-color);
+    border-radius: 4px;
+    border: 1px solid var(--lightdark-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .link-customers:focus {
+    color: var(--hover-color);
+    border-color: 1px solid var(--hover-color);
+  }
+  .item-list-customers {
+    width: calc((100% - 16px) / 2);
+    height: 88px;
+  }
+  .icon-customers {
+    fill: currentColor;
+  }
+  .list-customers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .block-customers {
+    padding-bottom: 96px;
+  }
+  .link-customers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .link-customers {
+    color: var(--lightdark-color);
+    border-radius: 4px;
+    border: 1px solid var(--lightdark-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .link-customers:focus {
+    color: var(--hover-color);
+    border-color: 1px solid var(--hover-color);
+  }
+  .item-list-customers {
+    width: calc((100% - 48px) / 3);
+    height: 88px;
+  }
+  .icon-customers {
+    fill: currentColor;
+  }
+  .list-customers {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .block-customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .link-customers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .link-customers {
+    color: var(--lightdark-color);
+    border-radius: 4px;
+    border: 1px solid var(--lightdark-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .link-customers:hover,
+  .link-customers:focus {
+    color: var(--hover-color);
+    border-color: 1px solid var(--hover-color);
+  }
+  .item-list-customers {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+  }
+  .icon-customers {
+    fill: currentColor;
+  }
+  .list-customers {
+    display: flex;
+    gap: 24px;
+  }
+}
